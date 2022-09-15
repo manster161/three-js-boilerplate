@@ -16,6 +16,7 @@
     "config": "^3.3.8",
     "express": "^4.15.3",
     "midi": "^2.0.0",
-    "mormalmidi": "file:../mormalmidi"
+    "mormalmidi": "file:../mormalmidi",
+    "websocket": "^1.0.34"
   }
 }
