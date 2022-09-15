@@ -1,6 +1,9 @@
 var express = require('express'),
     path = require('path'),
-    app = express();
+    app = express(),
+    mormalmidi = require('mormalmidi');
+
+mormalmidi.init();
 
 app.set('port', (process.env.PORT || 8080));
 

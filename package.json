@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.3.8",
     "express": "^4.15.3",
-    "midi": "^2.0.0"
+    "midi": "^2.0.0",
+    "mormalmidi": "file:../mormalmidi"
   }
 }
